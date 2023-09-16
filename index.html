@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=65058568f8a3010019f0ccf5&product=image-share-buttons&source=platform"
+        async="async"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p id="heading">ENTER YOUR TEXT</p>
+        <input type="text" placeholder="text or url" id="qrText">
+        <!-- <textarea value="text" id="qrtext" cols="30" rows="10" placeholder="text or url" ></textarea> -->
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+
+
+        <button id="btn" onclick="generatorQR() , changeHeading() ">Generate Qr Code</button>
+
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style share-box">
+            <!-- <a class="a2a_dd share" href="https://www.addtoany.com/share"></a> -->
+            <a class="a2a_button_email share"></a>
+            <a class="a2a_button_facebook share"></a>
+            <a class="a2a_button_twitter share"></a>
+            <a class="a2a_button_whatsapp share"></a>
+        </div>
+        <!-- AddToAny END -->
+    </div>
+
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
